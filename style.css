@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-weight: 400;
     scroll-behavior:smooth;
 }
 body {
@@ -29,12 +30,15 @@ header {
 /* header .logo -> é onde fica o nome do grupo */
 header .logo {
     color: red;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: "Saira Semi Condensed", sans-serif;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
 }
+
 
 header ul {
     display: flex;
@@ -67,7 +71,6 @@ section {
     padding: 100px;
     
 }
-
 section img {
     position:absolute;
     top:0;
@@ -85,8 +88,11 @@ section img {
     color:antiquewhite;
     font-size: 1.5em;
     z-index:9;
+    font-weight: 700;
     transform: translateY(100px);
     margin-left:70%;
+    
+
 }
 .sec {
     position: relative;
@@ -96,12 +102,15 @@ section img {
     font-size: 3.5em;
     margin-bottom: 20px;
     color:black;
+    font-family: 'Poiret One', cursive;
 }
 .sec p {
     font-size: 1em;
     color: #484d50;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Saira Semi Condensed',sans-serif;
+    font-weight: 200;
 }
 .linkedin {
     position: relative;
@@ -109,7 +118,7 @@ section img {
 }
 .linkedin h3 {
     font-size: 3.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color:blue;
 }
 .linkedin a {
@@ -123,4 +132,3 @@ section img {
     color:#939;
     
 }
-
